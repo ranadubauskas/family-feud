@@ -4,13 +4,13 @@ https://CSSI-Family-Feud-Project-Felomina-Rana-Shivani.shivani110403.repl.co
 
 
 ## Features
--Scores associated with two teams
--3 Guesses/Strike counter
--One minute timer automatically starts each round
--User types in answers
--Incorrect answer message
--Sound effects
--Confetti effect @ end 
+- Scores associated with two teams
+- 3 Guesses/Strike counter
+- One minute timer automatically starts each round
+- User types in answers
+- Incorrect answer message
+- Sound effects
+- Confetti effect @ end 
 
 ## Built With
 
