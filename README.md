@@ -10,7 +10,7 @@ https://CSSI-Family-Feud-Project-Felomina-Rana-Shivani.shivani110403.repl.co
 - User types in answers
 - Incorrect answer message
 - Sound effects
-- Confetti effect @ end 
+- Confetti effect at end 
 
 ## Built With
 
