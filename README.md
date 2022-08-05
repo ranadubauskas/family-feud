@@ -27,7 +27,7 @@ https://CSSI-Family-Feud-Project-Felomina-Rana-Shivani.shivani110403.repl.co
 ## Author
   - **Rana Dubauskas** - *Developed the app* -
     [ranadubauskas](https://github.com/ranadubauskas)
-  - **Shivani Patel** - *Developed the app* -
-  - **Felomina Antolin** - *Developed the app* -
+  - **Shivani Patel** - *Developed the app* 
+  - **Felomina Antolin** - *Developed the app* 
   
-*Project associated with Google CSSI. View our slide presentation [here](https://docs.google.com/presentation/d/12LVZi2FKiiQbQUTIIHCbMji2xVRkDEPd_-EiDDjPJJg/edit?usp=sharing)
+*Project associated with Google CSSI. View the slide presentation [here](https://docs.google.com/presentation/d/12LVZi2FKiiQbQUTIIHCbMji2xVRkDEPd_-EiDDjPJJg/edit?usp=sharing)
