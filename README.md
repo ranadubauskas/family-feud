@@ -30,4 +30,4 @@ https://CSSI-Family-Feud-Project-Felomina-Rana-Shivani.shivani110403.repl.co
   - **Shivani Patel** - *Developed the app* -
   - **Felomina Antolin** - *Developed the app* -
   
-*Project associated with Google CSSI. View our slide presentation [here] (https://docs.google.com/presentation/d/12LVZi2FKiiQbQUTIIHCbMji2xVRkDEPd_-EiDDjPJJg/edit) 
+*Project associated with Google CSSI. View our slide presentation [here](https://docs.google.com/presentation/d/12LVZi2FKiiQbQUTIIHCbMji2xVRkDEPd_-EiDDjPJJg/edit?usp=sharing)
