@@ -14,9 +14,9 @@ https://CSSI-Family-Feud-Project-Felomina-Rana-Shivani.shivani110403.repl.co
 
 ## Built With
 
--HTML
--JavaScript
--CSS
+- HTML
+- JavaScript
+- CSS
 
 ## Future Updates
 -automatically switch teams
