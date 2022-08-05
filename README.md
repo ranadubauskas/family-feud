@@ -19,15 +19,15 @@ https://CSSI-Family-Feud-Project-Felomina-Rana-Shivani.shivani110403.repl.co
 - CSS
 
 ## Future Updates
-- automatically switch teams
-- multiple game rounds
-- more questions from an API
-- algorithm to compare similar anwers 
+- Automatically switch teams each round
+- Multiple game rounds
+- More questions from an API
+- Algorithm to compare similar anwers 
 
 ## Author
   - **Rana Dubauskas** - *Developed the app* -
     [ranadubauskas](https://github.com/ranadubauskas)
-  - *Shivani Patel** - *Developed the app* -
-  - *Felomina Antolin** - *Developed the app* -
+  - **Shivani Patel** - *Developed the app* -
+  - **Felomina Antolin** - *Developed the app* -
   
 *Project associated with Google CSSI 
