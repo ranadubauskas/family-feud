@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Family Fued!</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon.png">
+  <!-- Bulma Version 0.9.0-->
+   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Work+Sans&display=swap" rel="stylesheet">
+  <link rel='stylesheet' href='https://unpkg.com/bulma@0.9.0/css/bulma.min.css'>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://kit.fontawesome.com/7dc3015a44.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="confetti-container">
+  <section class="container">
+     <div class=topContainer> 
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Logo_of_Family_Feud.png" alt="logo" class="logo" /> 
+      <div class=innerContainer>
+        <button class="button topButton questionButton hoverChange is-info is-dark is-medium" onclick="submit()">New
+          Question </button>
+        <div class=" button topButton team1 scoreButton hoverChange is-info is-dark  is-medium" onclick="points()"> Team 1 Total Score: 0 </div>
+        <div class=" button topButton team2 scoreButton hoverChange is-info is-dark is-medium" onclick="points()"> Team 2 Total Score: 0 </div>
+        <div class="  button topButton roundScore scoreButton hoverChange is-info is-dark is-medium"> Round Score: 0 </div>
+        <div class=" button topButton guessesLeft scoreButton hoverChange is-info is-dark is-medium"> Guesses Left: 3 </div>
+        <div class=" button topButton endGame scoreButton hoverChange is-info is-dark is-medium"> End Game </div>
+      </div>
+    </div>
+  </section>
+  <br>
+  <section class=" container">
+    <div class="board-item">
+      <div class="questionBox board-item-content"><span> Click the New Question button to play!</span</div>
+      </div>
+  </section>
+  <div class="horizontalPosition"> 
+  <section class="timerArea">
+    <div class="btnGroup">
+      <span>
+        <span class="timer">
+          <span>
+            <div class=" button is-info is-light is-medium counter" id="counter"> Time Left: <br> 1:00 </div>
+          </span>
+        </span>
+      </span>
+    </div>
+  </section>
+  <section class="container  answerArea">
+    <div class="level-item ">
+      <div class="columns is-multiline is-centered cards-container" id="sectioncontainer">
+        <div class="column is-narrow">
+          <article class="message is-info is-dark answerCards">
+            <div class="board-item">
+              <div class="board-item-content" id="box"><span class="hidden answer" id="0"> Answer 1 </span> </div>
+            </div>
+            <div class="board-item">
+              <div class="board-item-content" id="box"><span class="hidden answer" id="1"> Answer 2 </span></div>
+            </div>
+            <div class="board-item">
+              <div class="board-item-content" id="box"><span class="hidden answer" id="2"> Answer 3 </span></div>
+            </div>
+            <div class="board-item">
+              <div class="board-item-content" id="box"><span class="hidden answer" id="3">Answer 4</span></div>
+            </div>
+            <div class="board-item">
+              <div class="board-item-content" id="box"><span class="hidden answer" id="4">Answer 5</span></div>
+            </div>
+            <div class="board-item">
+              <div class="board-item-content" id="box"><span class="hidden answer" id="5">Answer 6</span></div>
+            </div>
+            <div class="board-item">
+              <div class="board-item-content" id="box"><span class="hidden answer" id="6">Answer 7</span></div>
+            </div>
+            <div class="board-item">
+              <div class="board-item-content" id="box"><span class="hidden answer" id="7">Answer 8</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+  </section>
+</div> 
+<br>
+<div class="horizontalPosition">
+  <section class="hero ">
+    <input id="guess" class="input is-primary is-large" type="text" name="language"
+      placeholder="Type your guess here!" />
+  </section>
+  <br>
+  <section>
+    <button id="submitButton" class="button is-info is-light"  onclick="team()"> Submit Guess </button>
+  </section>
+</div>
+  <h3 id="incorrectAnswerResponse" class="hidden"> Your guess is incorrect </h3>
+<br>
+
+<br>
+
+
+    <footer class="footer">
+      <br>
+      <p> Template Created by <a href="https://bulmatemplates.github.io/bulma-templates/templates/kanban.html"> Bulma
+        </a> </p>
+      <p> Questions Inspired by <a href="https://github.com/ChicagoBlend/Family-Feud/blob/master/feud.json"> GitHub </a>
+      </p>
+      <br>
+    </footer>
+    <script src="./script.js" defer></script> 
+        </div>
+</body>
+  
+
+</html>

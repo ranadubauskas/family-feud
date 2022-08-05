@@ -1,0 +1,232 @@
+body{
+font-family: 'Playfair Display', serif;
+font-family: 'Work Sans', sans-serif;
+background-image: linear-gradient(to bottom, #f5c6b4, #f6c0a9, #f6ba9d, #f5b590, #f4b084, #f4aa78, #f4a46b, #f39e5e, #f4964e, #f48e3c, #f48529, #f37d0e);
+ height: 900px;
+}
+
+
+
+.logo{
+  width: 15%;
+  height: 15%;
+  justify-content: center;
+  margin: auto;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+}
+
+
+
+.answer{
+  text-align: center;
+  font-size: 20px;
+}
+
+.answerArea{
+  margin-left: 0%;
+  margin-top: -0.75%;
+}
+
+
+.counter{
+  border-radius: 100%;
+  padding: 75px;
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 100px;
+  height: 100px;
+  font-size: 25px;
+}
+
+.horizontalPosition{
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+.topContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.innerContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-right: 0%;
+}
+.questionButton{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.hoverChange{
+  transition: transform .2s;
+}
+
+.hoverChange:hover {
+  transform: scale(1.09);
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.plus-minus-input {
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.plus-minus-input .input-group-field {
+  text-align: center;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  padding: 1rem;
+}
+
+.plus-minus-input .input-group-field::-webkit-inner-spin-button,
+.plus-minus-input .input-group-field ::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+          appearance: none;
+}
+
+.plus-minus-input .input-group-button .circle {
+  border-radius: 50%;
+  padding: 0.25em 0.8em;
+}
+
+ #sectioncontainer {
+  margin-top: 20px;
+}
+
+/* Keep from sticking to sides */
+ .cards-container {
+  max-width: 95%;
+} 
+
+  .board-item {
+  margin: 5px 0;
+  will-change: transform;
+} 
+ 
+.board-item-content {
+  word-break: break-all;
+  position: relative;
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 1px 3px 0 rgba(0,0,0,0.2);
+  box-shadow: 0px 1px 3px 0 rgba(0,0,0,0.2);
+  margin: 5px;
+}
+#submitButton{
+  margin-left: 20px;
+}
+.delete {
+  pointer-events: auto;
+}
+
+.footer { 
+  padding: 5px;
+  text-align: center; 
+  background-color: #ffffff;
+} 
+
+.answerCards {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+ }
+
+.hidden {
+  display: none; 
+}
+
+.topButton{
+  background-color: green;
+}
+
+
+
+#box{
+   width: 300px;
+  height: 100px;
+}
+
+#guess{
+  margin-left: 200%;
+}
+
+#incorrectAnswerResponse{
+  color: white;
+  text-align: center;
+  margin-left: -3.25%;
+  margin-top: 0.25%;
+  margin-bottom: 2%;
+}
+
+#submitButton{
+  margin-left: 398%;
+  margin-top: 7%;
+  padding: 20px;
+  font-family: 'Playfair Display', serif;
+font-family: 'Work Sans', sans-serif; 
+}
+
+#confetti-container {
+  width: 100vw;
+  height: 100vh;
+  position:relative;
+}
+.confetti {
+  position: absolute;
+  z-index: 999;
+}
+.confetti .rotate {
+  animation: driftRotate 1s infinite both ease-in-out;
+  width: 100%;
+  height: 100%;
+}
+.confetti .askew {
+  width: 100%;
+  height: 100%;
+  animation: drift 1s infinite alternate both ease-in-out;
+}
+@for $i from 0 to $n {  
+  .confetti:nth-child(#{$i}) .askew {
+    $time: 1s + random(100)*.01s;
+    animation-duration: $time;
+    animation-delay: -$time*random(100)*.01;
+  }
+  .confetti:nth-child(#{$i}) .rotate {
+    $time: 1s + random(100)*.01s;
+    animation-duration: $time;
+    animation-delay: -$time*random(100)*.01;
+  }
+}
+
+@keyframes drift {
+  0% {
+    transform: skewY(10deg) translate3d(-250%, 0, 0);
+  }
+  100% {
+    transform: skewY(-10deg) translate3d(250%, 0, 0);
+  }
+}
+@keyframes driftRotate {
+  0% {
+    transform: rotateX(0) ;
+  }
+  100% {
+    transform: rotateX(360deg);
+  }
+}
+
+
+
+
+
+
